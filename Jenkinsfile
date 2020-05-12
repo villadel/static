@@ -8,7 +8,7 @@ pipeline{
               }
          }
 
-    }
+    
 
         stage('Upload to AWS') {
               steps {
@@ -19,6 +19,7 @@ pipeline{
               }
          }
     }
+}
 
     post{
       
